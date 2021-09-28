@@ -6,7 +6,7 @@ public class FlipCoin {
 	public static void main(String[] args) {
 		int Heads = 0;
 		int Tails = 1;
-		int count = 0;
+		int count = 1;
 		Scanner flipcoin = new Scanner(System.in);
 		System.out.println("Number of tims coin flipping:");
 		int NumberOfFlips = flipcoin.nextInt();
