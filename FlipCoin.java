@@ -19,6 +19,7 @@ public class FlipCoin {
 				tailscount++;
 			} else if (random == HEADS)
 				headscount++;
+			flipcoin.close();
 		}
 		System.out.println("Number of times Heads comes:" + headscount);
 		System.out.println("Number of times Tails comes:" + tailscount);
